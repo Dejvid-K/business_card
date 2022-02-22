@@ -1,0 +1,66 @@
+body{
+    background: url(https://cdn.pixabay.com/photo/2016/02/16/22/13/fantasy-1204156_960_720.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    margin: 60px 70px;
+    padding: 30px;
+    height: 360px;
+    width: 600px;
+    background-color: black;
+    color: silver;
+    float: left;
+}
+#image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float: left;
+}
+#image:hover{
+    padding: 2px;
+    background-color: silver;
+    border-radius: 2px;
+    transform: scale(1.27);
+    transition: all 0.8s;
+}
+.contents{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+.username span{
+    border-bottom: 1px solid gray;
+    padding-bottom: 2px;
+}
+.email{
+    font-size: 15px;
+}
+.download-cv a{
+    color:royalblue;
+    font-size: 14px;
+    text-decoration: none ;
+}
+.download-cv a:hover{
+    color: silver;
+    transition: all 0.8s;
+    font-size: 20px;
+    box-shadow: 0 0 5px;
+}
+.link:hover{
+    transform: scale(2);
+    transition: all 0.8s;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float: right;
+    clear: both;
+    text-align: right;
+}
+.footer img{
+    width: 30px;
+}
